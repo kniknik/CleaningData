@@ -9,4 +9,5 @@ Finally, the data are written using write.table()
 
 There are no arguments for this script; the file directories are hard coded.  As such, you must be in the correct directory to run this script. It assumes that the "test" and "train" directories are in your current directory.
 
+The "plyr" package is needed to run this script.
 
