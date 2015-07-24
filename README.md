@@ -6,3 +6,7 @@ This repository contains a script for organising and processing a collection of 
 The data are split into "test" and "train" sets.  The script combines these data sets, then adds the appropriate labels for the data.  Data that represents mean values and standard deviation values are extracted.  They are then grouped along activity and subject lines and the means for these groupings calculated.
 
 Finally, the data are written using write.table()
+
+There are no arguments for this script; the file directories are hard coded.  As such, you must be in the correct directory to run this script. It assumes that the "test" and "train" directories are in your current directory.
+
+
